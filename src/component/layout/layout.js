@@ -11,15 +11,15 @@ const Layout = () => {
         <NavBar />
       </div>
 
-<div className='layoutcontainer'>
-      <div className='layoutsideBar'>
-        <SideBar />
+      <div className='layoutcontainer'>
+        <div className='layoutsideBar'>
+          <SideBar />
+        </div>
+        <div className='layoutmain'>
+          <Main />
+        </div>
       </div>
-
-      <div className='layoutmain'>
-        <Main/>
-      </div>
-</div>
+      
     </div>
   )
 }

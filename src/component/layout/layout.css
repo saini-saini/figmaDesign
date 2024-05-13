@@ -1,14 +1,14 @@
-.layout{
+.layout {
     width: 100%;
     height: 100vh;
 }
 
-.layoutnavBar{
+.layoutnavBar {
     width: 100%;
     height: 70px;
 }
 
-.layoutsideBar{
+.layoutsideBar {
     width: 250px;
     height: calc(100vh - 70px);
     background-color: #ffff;
@@ -16,12 +16,12 @@
     z-index: 1;
 }
 
-.layoutcontainer{
+.layoutcontainer {
     display: flex;
 }
 
-.layoutmain{
-background-color: #FAFBFD;
-width: 100%;
-height: calc(100vh - 70px);
+.layoutmain {
+    background-color: #FAFBFD;
+    width: 100%;
+    height: calc(100vh - 70px);
 }
