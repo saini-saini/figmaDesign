@@ -35,51 +35,21 @@ const Main = () => {
                     </div>
 
                     <div style={{
-                        width: "129px",
-                        height: "173px",
-                        display: "flex",
-                        flexDirection: "column",
-                        alignItems: "center",
-                        gap: "5px"
+                        width: "129px", height: "173px", display: "flex", flexDirection: "column", alignItems: "center", gap: "5px"
                     }}>
                         <div>
-                            <Checkbox defaultChecked color="default" /><span style={{
-                                fontFamily: "Open Sans, sans-serif",
-                                fontSize: "20px",
-                                fontWeight: "700",
-                                lineHeight: "27.24px",
-                                textAlign: "center",
-                                color: "#184A7C"
-
-                            }}>Select</span>
+                            <Checkbox defaultChecked color="default" /><span style={{ fontFamily: "Open Sans, sans-serif", fontSize: "20px", fontWeight: "700", lineHeight: "27.24px", textAlign: "center", color: "#184A7C" }}>Select</span>
                         </div>
-                        <div style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            gap: "10px"
-                        }}>
+                        <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
                             <div style={{ display: "flex", gap: "5px", cursor: "pointer" }}><LensOutlinedIcon style={{ width: "18px", height: "18px" }} /><span>White</span></div>
                             <div style={{ display: "flex", gap: "5px", cursor: "pointer" }}><PlayArrowIcon style={{ width: "24px", height: "24px" }} /><span>Start</span></div>
                             <div style={{ display: "flex", gap: "5px", cursor: "pointer" }}><StopIcon style={{ width: "24px", height: "24px" }} /><span>Stop</span></div>
                         </div>
                     </div>
 
-                    <div style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        justifyContent: "center",
-                        alignItems: "center",
-                    }}>
+                    <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", }}>
                         <div style={{ display: "flex", gap: "5px", cursor: "pointer" }}>
-                            <SettingsIcon /><span style={{
-                                fontFamily: "Open Sans, sans-serif",
-                                fontSize: "16px",
-                                fontWeight: "600",
-                                lineHeight: "21.79px",
-                                textAlign: "left",
-                                color: "#8D9598"
-
-                            }}>Device Settings</span>
+                            <SettingsIcon /><span style={{ fontFamily: "Open Sans, sans-serif", fontSize: "16px", fontWeight: "600", lineHeight: "21.79px", textAlign: "left", color: "#8D9598" }}>Device Settings</span>
                         </div>
                     </div>
                 </div>
@@ -87,9 +57,7 @@ const Main = () => {
                 <div className='mainRight'>
                     <div className='cardContainer'>
                         <div className='card'>
-                            <div style={{
-                                display: "flex", flexDirection: "column", gap: "14px"
-                            }}>
+                            <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
                                 <p className='cardText'>01</p>
                                 <p className='cardSubText'>TSRT1425</p>
                             </div>
@@ -100,134 +68,47 @@ const Main = () => {
                         </div>
 
                         <div className='card'>
-                            <div style={{
-                                display: "flex", flexDirection: "column", gap: "14px"
-                            }}>
+                            <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
                                 <p className='cardText'>02</p>
                                 <p className='cardSubText'>TSRT1425</p>
                             </div>
                             <div className='cardButton'>
-                                <button style={{
-                                    background: "#E7E6E6",
-                                    width: "106.35px",
-                                    height: "44.05px",
-                                    left: "492.28px",
-                                    borderRadius: "2px 0px 0px 0px",
-                                    border: "none",
-                                    fontFamily: "Open Sans, sans-serif",
-                                    fontSize: "32px",
-                                    fontWeight: "600",
-                                    lineHeight: "43.58px",
-                                    textAlign: "end",
-                                    color: "#184A7C",
-
-
-                                }}>03</button>
-                                <button style={{
-                                    background: "#B3D5FF",
-                                    width: "106.35px",
-                                    height: "44.05px",
-                                    left: "492.28px",
-                                    borderRadius: "2px 0px 0px 0px",
-                                    border: "none",
-                                    fontFamily: "Open Sans, sans-serif",
-                                    fontSize: "32px",
-                                    fontWeight: "600",
-                                    lineHeight: "43.58px",
-                                    textAlign: "start",
-                                    color: "#184A7C"
-
-                                }}>
-                                    <div style={{
-                                        display: "flex", alignItems: "center", justifyContent: "space-between"
-                                    }}>
+                                <button style={{ background: "#E7E6E6", width: "106.35px", height: "44.05px", left: "492.28px", borderRadius: "2px 0px 0px 0px", border: "none", fontFamily: "Open Sans, sans-serif", fontSize: "32px", fontWeight: "600", lineHeight: "43.58px", textAlign: "end", color: "#184A7C", }}>03</button>
+                                <button style={{ background: "#B3D5FF", width: "106.35px", height: "44.05px", left: "492.28px", borderRadius: "2px 0px 0px 0px", border: "none", fontFamily: "Open Sans, sans-serif", fontSize: "32px", fontWeight: "600", lineHeight: "43.58px", textAlign: "start", color: "#184A7C" }}>
+                                    <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
                                         <span>:34</span>
-                                        <span style={{
-                                            fontFamily: "Open Sans, sans-serif",
-                                            fontSize: "17px",
-                                            fontWeight: '400',
-                                            lineHeight: "27.24px",
-                                            textAlign: "center",
-                                            paddingRight: "4px"
-                                        }}>25%</span>
+                                        <span style={{ fontFamily: "Open Sans, sans-serif", fontSize: "17px", fontWeight: '400', lineHeight: "27.24px", textAlign: "center", paddingRight: "4px" }}>25%</span>
                                     </div>
                                 </button>
                             </div>
                         </div>
 
-                        <div style={{
-                            width: "210px",
-                            height: "136.28px",
-                            borderRadius: "2px 0px 0px 0px",
-                            border: "1px solid #E6E6E6",
-                            display: "flex",
-                            flexDirection: "column",
-                            gap: "0px",
-                        }}>
-                            <div style={{
-                                display: "flex", flexDirection: "column", gap: "14px"
-                            }}>
+                        <div style={{ width: "210px", height: "136.28px", borderRadius: "2px 0px 0px 0px", border: "1px solid #E6E6E6", display: "flex", flexDirection: "column", gap: "0px" }}>
+                            <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
                                 <p className='cardText'>03</p>
                                 <div>
-                                    <p style={{
-                                        fontFamily: "Open Sans, sans-serif",
-                                        fontSize: "20px",
-                                        fontWeight: "600",
-                                        lineHeight: "27.24px",
-                                        textAlign: "center",
-                                        color: "#184A7C"
-
-                                    }}>Stop?</p>
+                                    <p style={{ fontFamily: "Open Sans, sans-serif", fontSize: "20px", fontWeight: "600", lineHeight: "27.24px", textAlign: "center", color: "#184A7C" }}>Stop?</p>
                                     <p className='cardSubText'>TSRT1425</p>
                                 </div>
                             </div>
-                            <div style={{
-                                display: "flex",
-                                border: "2px solid #184A7C"
-                            }}>
+                            <div style={{ display: "flex", border: "2px solid #184A7C" }}>
                                 <button className='takeWhite'>Yes</button>
                                 <button className='start'>No</button>
                             </div>
                         </div>
 
-                        <div style={{
-                            width: "210px",
-                            height: "136.28px",
-                            borderRadius: "2px 0px 0px 0px",
-                            display: "flex",
-                            flexDirection: "column",
-                            gap: '24px',
-                            border: "1px solid #00A81459"
-                        }}>
-                            <div style={{
-                                display: "flex", flexDirection: "column", gap: "14px"
-                            }}>
+                        <div style={{ width: "210px", height: "136.28px", borderRadius: "2px 0px 0px 0px", display: "flex", flexDirection: "column", gap: '24px', border: "1px solid #00A81459" }}>
+                            <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
                                 <p className='cardText'>04</p>
                                 <p className='cardSubText'>TSRT1425</p>
                             </div>
                             <div className='cardButton'>
-                                <button style={{
-                                    width: "231.96px",
-                                    height: "44px",
-                                    borderRadius: "2px 0px 0px 0px",
-                                    background: "#00A814",
-                                    color: "white",
-                                    border: "none",
-                                    fontFamily: "Open Sans, sans-serif",
-                                    fontSize: "32px",
-                                    fontWeight: "600",
-                                    lineHeight: "43.58px",
-                                    textAlign: "center",
-
-
-                                }}>03:34</button>
+                                <button style={{ width: "231.96px", height: "44px", borderRadius: "2px 0px 0px 0px", background: "#00A814", color: "white", border: "none", fontFamily: "Open Sans, sans-serif", fontSize: "32px", fontWeight: "600", lineHeight: "43.58px", textAlign: "center" }}>03:34</button>
                             </div>
                         </div>
 
                         <div className='card'>
-                            <div style={{
-                                display: "flex", flexDirection: "column", gap: "14px"
-                            }}>
+                            <div style={{display: "flex", flexDirection: "column", gap: "14px"}}>
                                 <p className='cardText'>05</p>
                                 <p style={{
                                     fontFamily: "Open Sans, sans-serif",
@@ -425,7 +306,6 @@ const Main = () => {
                                         lineHeight: "27.24px",
                                         textAlign: "center",
                                         color: "#184A7C"
-
                                     }}>Stop?</p>
                                     <p className='cardSubText'>TSRT1425</p>
                                 </div>
