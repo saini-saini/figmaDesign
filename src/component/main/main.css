@@ -1,0 +1,128 @@
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: #FAFBFD;
+    padding: 31px 31px 0px 31px;
+
+}
+
+.mainContainer {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow: 0px 0px 5px 0px rgba(210, 209, 209, 0.75);
+    display: flex;
+    gap: 19px;
+}
+
+.mainleft {
+    width: 223px;
+    height: 100%;
+    border: 1px solid #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px 0px;
+    border-radius: 8px 0px 0px 0px;
+}
+
+.mainleftText {
+    width: 182px;
+    height: 33.46px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: center;
+    color: #8D9598;
+
+}
+
+.card {
+    width: 210px;
+    height: 136.28px;
+    border-radius: 2px 0px 0px 0px;
+    border: 1px solid #E6E6E6;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    box-shadow: 0px 0px 4px 0px #0000001A;
+}
+
+.cardButton {
+    display: flex;
+}
+
+.takeWhite {
+    cursor: pointer;
+    width: 116.1px;
+    height: 44px;
+    border-radius: 0px 0px 0px 2px;
+    border: 1px solid #184A7C40;
+    background: #FFFFFF;
+    color: #184A7C;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27.24px;
+    text-align: center;
+}
+
+.start {
+    cursor: pointer;
+    width: 116.1px;
+    height: 44px;
+    border-radius: 0px 0px 0px 2px;
+    border: 1px solid #184A7C40;
+    color: #FFFFFF;
+    background-color: #184A7C;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27.24px;
+    text-align: center;
+}
+
+.cardText {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    text-align: center;
+    color: #8D9598;
+    padding-top: 5px;
+}
+
+.cardSubText {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    text-align: center;
+    color: #184A7C;
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    padding: 13px 0px 13px 0px
+}
+
+.mainRight {
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.check {
+    width: 79.12px;
+    height: 64px;
+    position: absolute;
+    top: 22%;
+    left: 32%;
+}
