@@ -404,7 +404,6 @@ const Main = () => {
                                 </button>
                             </div>
                         </div>
-
                         <div style={{
                             width: "210px",
                             height: "136.28px",
