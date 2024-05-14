@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/raman-figma-test/static/css/main.e12c441c.css",
+    "main.js": "/raman-figma-test/static/js/main.15e1fa6a.js",
+    "static/media/multipleUsers.png": "/raman-figma-test/static/media/multipleUsers.e492cf3017def0e73228.png",
+    "static/media/home (1).png": "/raman-figma-test/static/media/home (1).8a6e3479f8ed9c0b810e.png",
+    "index.html": "/raman-figma-test/index.html",
+    "main.e12c441c.css.map": "/raman-figma-test/static/css/main.e12c441c.css.map",
+    "main.15e1fa6a.js.map": "/raman-figma-test/static/js/main.15e1fa6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e12c441c.css",
+    "static/js/main.15e1fa6a.js"
+  ]
+}
